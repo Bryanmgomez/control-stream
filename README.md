@@ -1,6 +1,9 @@
 # Kick Stream Monitor
 
-Aplicación Android (Java) + backend Spring Boot para monitorear transmisiones en vivo de Kick (canal bryanmg83).
+[![Descargar APK](https://img.shields.io/badge/Descargar-APK-39FF14?style=for-the-badge&logo=android)](https://github.com/Bryanmgomez/control-stream/releases/latest)
+[![Build](https://github.com/Bryanmgomez/control-stream/actions/workflows/android-build.yml/badge.svg)](https://github.com/Bryanmgomez/control-stream/actions/workflows/android-build.yml)
+
+> Pulsa el botón verde de arriba para descargar el APK más reciente.
 
 ## Estructura
 - `backend/` - Spring Boot 2.7 (Java 8). WebSocket crudo en `/stream`, STOMP en `/ws`, REST en `/api`.
