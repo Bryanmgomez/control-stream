@@ -11,8 +11,6 @@ permissions:
 jobs:
   build-apk:
     runs-on: ubuntu-latest
-    env:
-      ANDROID_HOME: /usr/local/lib/android/sdk
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,12 +27,12 @@ jobs:
       - name: Create local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
 
-      - name: Set up Gradle
-        uses: gradle/gradle-build-action@v2
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
 
       - name: Build APK
         working-directory: android
-        run: gradle :app:assembleDebug --no-daemon --stacktrace
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
