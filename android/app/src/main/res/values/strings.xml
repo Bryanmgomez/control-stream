@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kick Stream Monitor</string>
+    <string name="channel_name">bryanmg83</string>
+    <string name="viewers">Espectadores</string>
+    <string name="followers">Seguidores nuevos</string>
+    <string name="chat">Chat en vivo</string>
+    <string name="donations">Donaciones / KICKs</string>
+    <string name="subscriptions">Suscripciones</string>
+    <string name="connect">Conectar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="status_live">EN VIVO</string>
+    <string name="no_messages">Sin mensajes aún</string>
+</resources>

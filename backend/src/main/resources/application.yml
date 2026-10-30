@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+kick:
+  channel: bryanmg83
+  channel-url: https://kick.com/bryanmg83
+  pusher:
+    app-key: 32cbd69e4b950bf97679
+    cluster: us2
+  api:
+    base-url: https://kick.com/api/v2
+  polling:
+    viewers-interval-ms: 5000
+    followers-interval-ms: 15000
+
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    com.kickmonitor: DEBUG

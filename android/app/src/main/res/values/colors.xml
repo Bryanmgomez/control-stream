@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0A0A0F</color>
+    <color name="black_deep">#050508</color>
+    <color name="surface">#14141F</color>
+    <color name="surface_2">#1C1C2A</color>
+    <color name="purple">#7B2CBF</color>
+    <color name="purple_light">#9D4EDD</color>
+    <color name="purple_dark">#5A189A</color>
+    <color name="neon_green">#39FF14</color>
+    <color name="neon_green_dim">#2ECC0F</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0C0</color>
+    <color name="text_muted">#6B6B7B</color>
+    <color name="accent_red">#FF4D4D</color>
+    <color name="chat_bubble">#1F1F2E</color>
+</resources>
